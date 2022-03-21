@@ -14,10 +14,15 @@ public class Banco {
 		empresa.setId(chaveSequencial++);
 		empresa.setNome("Alura");
 		Empresa empresa2 = new Empresa();
-		empresa.setId(chaveSequencial++);
+		empresa2.setId(chaveSequencial++);
 		empresa2.setNome("Caelum");
+		Empresa empresa3 = new Empresa();
+		empresa3.setId(chaveSequencial++);
+		empresa3.setNome("Google");
 		lista.add(empresa);
 		lista.add(empresa2);
+		lista.add(empresa3);	
+		
 	}
 	
 	public void adiciona(Empresa empresa) {
